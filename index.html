@@ -4,10 +4,12 @@
   <title>Infinity's Edge</title>
   <link rel="shortcut icon" href="favicon.ico" />
   <style>
-    body { background-image:url('background.png'); background-repeat:repeat; }
-    @keyframes body {
-    from {background-position: 0 0;}
-    to {background-position: -400px 0;}
+    body { background-image:url('background.png'); background-size: 200% 200%; animation: background 10s linear infinite;}
+
+    @keyframes background {
+      100% {
+        background-position: 100% 100%;
+      }
     }
   </style>
 </head>
