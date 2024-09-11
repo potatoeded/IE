@@ -8,6 +8,12 @@
   </style>
 </head>
 <body>
-  <script></script>
+  <button type="button">Click Me!</button>
+  <script>
+    function clickBody() {
+      window.location.href = '/'
+    }
+    document.body.addEventListener("click", clickBody)
+  </script>
 </body>
 </html>
